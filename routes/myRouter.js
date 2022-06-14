@@ -11,7 +11,7 @@ router.route("/logout").get(adminController.logout);
 router.route("/subirPost").get(adminController.postear2);
 router.route("/", async (req, res) => {
     try {
-      return res.status(200).render("pagina.ejs");
+      return res.status(200).send("pagina andando?");
     } 
     catch (error) {
       console.error(error);
