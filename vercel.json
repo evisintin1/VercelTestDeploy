@@ -3,7 +3,7 @@
     "builds": [
       {
         "src": "app.js",
-        "use": "@mongodb/node"
+        "use": "@mongoose/node"
       }
     ],
     "routes": [
