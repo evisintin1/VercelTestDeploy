@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
       {
-        "src": "app.js",
+        "src": "./views/index.ejs",
         "use": "@now/node"
       }
     ],
@@ -11,7 +11,7 @@
         
         "src": "/(.*)",
         
-        "dest": "app.js"
+        "dest": "./views/index.ejs"
       }
     ]
   }
