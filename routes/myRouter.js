@@ -11,4 +11,3 @@ router.route("/logout").get(adminController.logout);
 router.route("/subirPost").get(adminController.postear2);
 
 module.exports = router;
- 
